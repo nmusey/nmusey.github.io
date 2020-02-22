@@ -23,6 +23,7 @@ git clone git@github.com:$GITHUB_UNAME/$HOME_PROJECT.git;
 cd $HOME_PROJECT;
 npm install;
 npm run build;
+npx postcss *.css --use autoprefixer -d build/
 cd ..;
 move $HOME_PROJECT/build/* .;
 rm -rf $HOME_PROJECT;
