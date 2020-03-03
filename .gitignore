@@ -1,2 +1,3 @@
-portfolio/
-build/
+node_modules/
+builds/*
+repositories/*

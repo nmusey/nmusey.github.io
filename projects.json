@@ -1,0 +1,11 @@
+{
+    "index": "portfolio",
+    "username": "nmusey",
+    "projects": [
+        {
+            "name": "portfolio",
+            "setup": "npm install",
+            "build": "npm run build"
+        }
+    ]
+}
