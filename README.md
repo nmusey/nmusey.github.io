@@ -5,7 +5,7 @@ Contains all of the build files for nickmusey.com as well as some scripts to dep
 
 ## Deploying
 To deploy just add projects to the json file (see Adding Projects below) then run `scripts/build.py` and `git push` to the repository.
-
+Don't forget to run `npm install` first!
 
 
 ## Adding Projects
